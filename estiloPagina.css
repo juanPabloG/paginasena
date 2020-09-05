@@ -1,0 +1,129 @@
+H1{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+body{
+    text-align: center;
+}
+.agrupar{
+    width: 990px;
+    background-color: beige;
+    border: 1px;
+    margin: 15px auto;
+    padding: 100px;
+}
+/*.cabecera{
+    background: #fffbb9;
+    border: 1px solid #999999;
+    padding: 20px;
+}*/
+.cabecera h1{
+    text-align: left;
+}
+.menu{
+    background: #ccc94c;
+    padding:  5px 15px;
+    text-align: left;
+
+}
+.menu li{
+    list-style: none;
+    padding:5px ;
+    font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 20px;
+    display: inline-block;
+
+}
+.seccion{
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+article{
+    background: #fffbbc;
+    margin-bottom: 15px;
+    border: black;
+    padding: 10px;
+
+}
+time{
+    color: #999;
+}
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+.columna{
+    margin: 20px 0px;
+    width: 30%;
+    float: left;
+
+}
+.columna blockquote{
+    border: 1px solid black;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+
+.pie{
+    clear: both;
+    padding: 20 px;
+    background: darkslategray;
+    color: white;
+}
+img {
+    width: 80px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+
+}
+.social ul li a {
+    display:inline-block;
+    color: #fff;
+    background: #0000;
+    padding: 10px 15px;
+    text-decoration: none;
+    -webkit-transitions: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.social ul li .icon-facebook {background:#fff;}
+.social ul li .icon-twitter {background:#fff;}
+.social ul li .icon-pinterest {background:#fff;}
+.social ul li .icon-whatsapp {background:#fff;}
+.social ul li .icon-youtube {background:#fff;}
+.social ul li .icon-instagram {background:#fff;}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+    background: #000;
+
+}
